@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-A script to createa WinRM listener based on HTTPS with an Self Signed Computercertificate.
+A script to create a WinRM listener based on HTTPS with an Self Signed Computercertificate.
 It connects to the remote computer of your choice and creates a computercertificate. Then it creates the listener with that certificate. In the end it exports the certificate and imports it in the local "trusted People"
 After this you can connect your Windows Admin Center to this computer over https 
 .VERSION
